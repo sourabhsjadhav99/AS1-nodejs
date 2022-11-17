@@ -1,0 +1,5 @@
+const {myFileWriter ,myFileReader, myFileDeleter, myFileUpdater}=require("./index")
+myFileWriter("input.txt", "Hello")
+myFileReader("input.txt").then(data => { console.log(data) })
+myFileUpdater("input.txt", " Sourabh")
+// myFileDeleter("input.txt")
